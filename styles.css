@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-image: url(Burning-in-Fire-123rf-11551751_xxl.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#title{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    color: rgb(255, 217, 0);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.buttons{
+    cursor: pointer;
+    font-size: x-large;
+    width: 97px;
+    margin: 2px 4px 2px 4px;
+}
+.firstButtons{
+    cursor: pointer;
+    font-size: x-large;
+    width: 97px;
+    margin: 2px 4px 2px 16px;
+}
+#frame{
+    border: 1px solid;
+    height: 416px;
+    width: 340px;
+    border-radius: 10px;
+    background-color: rgb(128, 4, 4);
+}
+#innerFrame{
+    border: 1px solid;
+    height: 304px;
+    width: 306px;
+    margin: 2px 0px 2px 16px;
+    background-color: white;
+}
+#happinessBar{
+    width: 306px;
+    background-color: green;
+    margin-bottom: 1px;
+}
+#topButtons{
+    display: flex;
+    margin-top: 10px;
+}
+#bottomButtons{
+    display: flex;
+}
+#devil{
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+    
+}
+#flexibles{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 6px;
+}
+#timer{
+    margin: 0px 23px 2px 0px;
+    font-size: x-large;
+}
+#request{
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 70px -18px 0px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+#answer{
+    border: 1px solid;
+    width: 220px;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 2px;
+    padding-left: 10px;
+}
+
+#start{
+cursor: pointer;
+margin-left: 98px;
+margin-top: 4px;
+}
+
+#reload{
+cursor: pointer;
+}

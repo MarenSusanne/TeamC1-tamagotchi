@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TBD</title>
+    <link rel="stylesheet" href="styles.css"/>
+
+</head>
+<body onload="mainload();">
+    <div>
+        <h2 id="title"></h2>
+        <div id="frame">
+            <div id="topButtons">
+                <button class="firstButtons" id="giveBlood" onclick="feed(this)">🩸</button>
+                <button class="buttons" id="giveBroccoli" onclick="feed(this)">🥦</button>
+                <button class="buttons" id="giveBat" onclick="feed(this)">🦇</button>
+            </div>
+            <div id="innerFrame">
+                <div id="flexibles">
+                    <div id="timer">5</div>
+                    <div id="request"></div>
+                    <div id="answer"></div>
+                </div>
+                <div id="devil">
+                    <img id="devilMood" src="NeutralDemon.png" alt="Neutral Demon" height="260px">
+                </div>
+                <progress id="happinessBar" value="50" max="100"></progress>
+            </div>
+            <div id="bottomButtons">
+                <button class="firstButtons" id="giveBone" onclick="feed(this)">🦴</button>
+                <button class="buttons" id="giveMushroom" onclick="feed(this)">🍄</button>
+                <button class="buttons" id="giveUnicorn" onclick="feed(this)">🦄</button>
+            </div>
+        </div>
+        <button id="start" onclick="startGame()">Start Game</button>
+        <button id="reload" onclick="reload()">Restart</button>
+    </div>
+    <audio id="music">
+        <source src="Untitled_Song.mp3">
+    </audio>    
+    <script src="script.js"></script>
+</body>
+</html>
